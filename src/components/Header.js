@@ -3,7 +3,7 @@ import React from "react"
 function Header() {
     return (
         <header>
-            <h1 className="header-title">My To-Do List</h1>
+            <h1 className="header-title">Get It Done!</h1>
         </header>
     )
 }
