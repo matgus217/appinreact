@@ -58,6 +58,7 @@ input {
   align-self: stretch;
   border-radius: 50px;
   border: none;
+  background-color: beige;
 }
 
 button {
@@ -148,7 +149,7 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   padding: .5rem;
   overflow-wrap: break-word;
   overflow-y: auto;
-  background-color: white;
+  background-color: beige;
 }
 
 .modify-todo {
