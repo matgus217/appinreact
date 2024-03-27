@@ -120,13 +120,11 @@ function App() {
           className="delete-selected-btn"
           onClick={deleteSelected}
           title="Delete Completed"
-        >
-          <span> 
-            <img
-              src="../../images/icons/trash-can-solid.svg"
-              alt="trashcan-icon" 
-              className="bin-icon"/>
-          </span>
+           >
+            <span>Delete</span>
+
+
+          
         </button>}
         <div className="todo-list">
           {todoList}
