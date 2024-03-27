@@ -91,10 +91,7 @@ footer {
   font-weight: bold;
 }
 
-footer a, footer a:hover, footer a:focus, footer a:active {
-  text-decoration: none;
-  color: white;
-}
+
 
 
 
@@ -127,9 +124,7 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   }
 }
 
-.bin-icon {
-  filter: invert(0%) sepia(100%) saturate(6313%) hue-rotate(140deg) brightness(99%) contrast(107%);
-}
+
 
 .todo-list {
   display: grid;
