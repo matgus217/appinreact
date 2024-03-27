@@ -8,7 +8,7 @@ function Todo(props) {
                 <div className="completed" 
                     onClick={props.toggleCompleted}
                 >
-                    <span className="tooltiptext">Mark As Done</span>
+                    <span className="tooltiptext">This Is Done.</span>
                     {props.isCompleted && "⚫"}
                 </div>
                 <div 
@@ -16,7 +16,7 @@ function Todo(props) {
                     onClick={props.deleteTodo}
                 >
                     x
-                    <span className="tooltiptext">Delete</span>
+                    <span className="tooltiptext">Delete.</span>
                 </div>
             </div>
             <div
