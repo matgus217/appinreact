@@ -77,7 +77,7 @@ button:hover {
   cursor: pointer;
 }
 
-.add-btn {
+.add-button {
   width: 4rem;
 }
 
@@ -103,13 +103,13 @@ footer {
   width: 100%;
 }
 
-.delete-selected-btn {
+.erase-button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.delete-selected-btn:hover {
+.erase-button:hover {
   animation: expand .5s ease-in-out .2s 1 forwards;
 }
 
@@ -157,7 +157,7 @@ footer {
 
 
 .completed,
-.delete-todo {
+.erase-todo {
   font-size: .75rem;
   position: relative;
   display: inline-block;
@@ -175,7 +175,7 @@ footer {
   justify-content: center;
 }
 
-.delete-todo {
+.erase-todo {
   font-size: 1.5rem;
 }
 
@@ -196,11 +196,11 @@ footer {
   top: 10%;
 }
 
-.delete-todo .tooltiptext {
+.erase-todo .tooltiptext {
   right: 105%;
 }
 
-.delete-todo:hover .tooltiptext,
+.erase-todo:hover .tooltiptext,
 .completed:hover .tooltiptext {
   visibility: visible;
 }
@@ -246,7 +246,7 @@ footer {
     justify-content: space-between;
   }
 
-  .delete-selected-btn {
+  .erase-button  {
     width: 3.5rem;
     height: 3.5rem;
   }
@@ -297,7 +297,7 @@ footer {
     font-size: .9rem;
   }
 
-  .delete-selected-btn {
+  .erase-button  {
     position: absolute;
     right:0;
   }
@@ -331,7 +331,7 @@ footer {
     height: 5rem;
   }
 
-  .add-btn {
+  .add-button {
     height: 5rem;
     width: 5rem;
   }
@@ -367,7 +367,7 @@ footer {
     font-size: 1.4rem;
   }
 
-  .add-btn {
+  .add-button {
     width: 100px;
     height: 6rem;
     font-size: 3rem;
@@ -394,7 +394,7 @@ footer {
     font-size: 1.7rem;
   }
 
-  .delete-selected-btn {
+  .erase-button  {
     width: 5rem;
     height: 5rem;
   }
@@ -435,7 +435,7 @@ footer {
     font-size: 1.4rem;
   }
 
-  .delete-todo {
+  .erase-todo {
     font-size: 2.4rem;
   }
 }

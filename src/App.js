@@ -105,7 +105,7 @@ function App() {
         <div className="input-container">
           <Input input={input} handleChange={handleInputChange} onKeyPress={(event)=>handleKeyPress(event)}/>
           <button 
-            className="add-btn" 
+            className="add-button" 
             onClick={input && handleClick}
             title="Add to List"
           >
@@ -117,11 +117,11 @@ function App() {
       </div>
       <div className="output-container">
         {completedTodos && <button
-          className="delete-selected-btn"
+          className="erase-button"
           onClick={deleteSelected}
           title="Delete Completed"
            >
-            <span>Delete</span>
+            <span>Erase</span>
 
 
           

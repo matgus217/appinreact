@@ -12,11 +12,11 @@ function Todo(props) {
                     {props.isCompleted && "⚫"}
                 </div>
                 <div 
-                    className="delete-todo"
+                    className="erase-todo"
                     onClick={props.deleteTodo}
                 >
                     x
-                    <span className="tooltiptext">Delete.</span>
+                    <span className="tooltiptext">Erase.</span>
                 </div>
             </div>
             <div
